@@ -31,19 +31,32 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.093" />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130dp"
+        android:layout_height="66dp"
+        android:onClick="clickBack"
+        android:text="BACK PAGE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.213"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915"
+        tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="130dp"
         android:layout_height="66dp"
-        android:text="NEXT PAGE"
         android:onClick="click9"
+        android:text="NEXT PAGE"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.814"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.909" />
-
+        app:layout_constraintVertical_bias="0.915"
+        tools:ignore="OnClick" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

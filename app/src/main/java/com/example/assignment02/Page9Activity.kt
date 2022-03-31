@@ -17,4 +17,10 @@ class Page9Activity : AppCompatActivity() {
             startActivity(Intent(this@Page9Activity, Page10Activity::class.java))
         }
     }
+    fun clickBack(view: View) {
+        val button = findViewById<View>(R.id.button3) as Button
+        button.setOnClickListener {
+            finish()
+        }
+    }
 }
