@@ -12,8 +12,8 @@ class Page1Activity : AppCompatActivity(){
         setContentView(R.layout.activity_page1)
     }
     fun click1(view: View) {
-        val button = findViewById<View>(R.id.button) as Button
-        button.setOnClickListener {
+        val button1 = findViewById<View>(R.id.button2) as Button
+        button1.setOnClickListener {
             startActivity(Intent(this@Page1Activity, Page2Activity::class.java))
         }
     }

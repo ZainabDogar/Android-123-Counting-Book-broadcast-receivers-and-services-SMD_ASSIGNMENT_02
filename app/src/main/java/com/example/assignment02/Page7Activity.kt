@@ -9,10 +9,10 @@ import androidx.appcompat.app.AppCompatActivity
 class Page7Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_page7)
     }
     fun click7(view: View) {
-        val button = findViewById<View>(R.id.button) as Button
+        val button = findViewById<View>(R.id.button2) as Button
         button.setOnClickListener {
             startActivity(Intent(this@Page7Activity, Page8Activity::class.java))
         }

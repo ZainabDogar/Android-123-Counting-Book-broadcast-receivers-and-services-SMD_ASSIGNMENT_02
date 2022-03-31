@@ -9,10 +9,10 @@ import androidx.appcompat.app.AppCompatActivity
 class Page6Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_page6)
     }
-    fun click(view: View) {
-        val button = findViewById<View>(R.id.button) as Button
+    fun click6(view: View) {
+        val button = findViewById<View>(R.id.button2) as Button
         button.setOnClickListener {
             startActivity(Intent(this@Page6Activity, Page7Activity::class.java))
         }
