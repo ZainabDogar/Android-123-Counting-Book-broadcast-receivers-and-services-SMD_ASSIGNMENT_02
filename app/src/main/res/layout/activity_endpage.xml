@@ -4,12 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Page2Activity">
+    tools:context=".Page2Activity"
+    android:background="@color/black">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="204dp"
         android:layout_height="118dp"
+        android:textColor="@color/GREY"
         android:text="END"
         android:textSize="100dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -23,6 +25,7 @@
         android:id="@+id/textView2"
         android:layout_width="131dp"
         android:layout_height="68dp"
+        android:textColor="@color/GREY"
         android:text="THE"
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,17 +60,18 @@
         app:layout_constraintVertical_bias="0.92"
         tools:ignore="OnClick" />
 
+
     <ImageView
-        android:id="@+id/image"
-        android:layout_width="230dp"
-        android:layout_height="151dp"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
+        android:id="@+id/imageView2"
+        android:layout_width="366dp"
+        android:layout_height="314dp"
+        app:layout_constraintBottom_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@android:drawable/ic_menu_send"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.416"
+        app:srcCompat="@drawable/end" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
