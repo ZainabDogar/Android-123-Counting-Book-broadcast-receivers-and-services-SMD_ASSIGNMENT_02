@@ -11,17 +11,14 @@ class EndPageActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_endpage)
-        val image = findViewById<View>(R.id.image) as ImageView
-    }
-    fun clickEnd(view: View) {
-        val button = findViewById<View>(R.id.button2) as Button
-        button.setOnClickListener {
+
+        val button20 = findViewById<View>(R.id.button2) as Button
+        button20.setOnClickListener {
             startActivity(Intent(this@EndPageActivity, MainActivity::class.java))
         }
-    }
-    fun clickBack(view: View) {
-        val button = findViewById<View>(R.id.button3) as Button
-        button.setOnClickListener {
+
+        val button21 = findViewById<View>(R.id.button3) as Button
+        button21.setOnClickListener {
             finish()
         }
     }

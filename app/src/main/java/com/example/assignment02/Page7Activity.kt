@@ -10,16 +10,14 @@ class Page7Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_page7)
-    }
-    fun click7(view: View) {
-        val button = findViewById<View>(R.id.button2) as Button
-        button.setOnClickListener {
+
+        val button12 = findViewById<View>(R.id.button2) as Button
+        button12.setOnClickListener {
             startActivity(Intent(this@Page7Activity, Page8Activity::class.java))
         }
-    }
-    fun clickBack(view: View) {
-        val button = findViewById<View>(R.id.button3) as Button
-        button.setOnClickListener {
+
+        val button13 = findViewById<View>(R.id.button3) as Button
+        button13.setOnClickListener {
             finish()
         }
     }

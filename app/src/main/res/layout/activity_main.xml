@@ -10,7 +10,6 @@
         android:id="@+id/button"
         android:layout_width="125dp"
         android:layout_height="63dp"
-        android:onClick="click"
         android:text="Open Book"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
