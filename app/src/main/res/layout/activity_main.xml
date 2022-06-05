@@ -8,15 +8,40 @@
     android:background="@color/black">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="125dp"
-        android:layout_height="63dp"
-        android:text="Open Book"
+        android:id="@+id/playBtn"
+        android:layout_width="96dp"
+        android:layout_height="55dp"
+        android:text="Play"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.889" />
+        app:layout_constraintVertical_bias="0.914" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="108dp"
+        android:layout_height="55dp"
+        android:text="Start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <Button
+        android:id="@+id/stopBtn"
+        android:layout_width="98dp"
+        android:layout_height="58dp"
+        android:text="Stop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.917" />
 
     <TextView
         android:id="@+id/textView5"
@@ -87,6 +112,5 @@
         app:layout_constraintTop_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.593"
         app:srcCompat="@drawable/start" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
